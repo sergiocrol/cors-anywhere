@@ -12,6 +12,12 @@ cookies. Requesting [user credentials](http://www.w3.org/TR/cors/#user-credentia
 The app can be configured to require a header for proxying a request, for example to avoid
 a direct visit from the browser.
 
+## Deployed App
+
+This app is deployed in [https://salty-earth-46109.herokuapp.com/](https://salty-earth-46109.herokuapp.com/).
+
+To use it see 'Client' section.
+
 ## Example
 
 ```javascript
@@ -40,6 +46,7 @@ Request examples:
 
 Live examples:
 
+* https://salty-earth-46109.herokuapp.com/
 * https://cors-anywhere.herokuapp.com/
 * https://robwu.nl/cors-anywhere.html - This demo shows how to use the API.
 
@@ -54,7 +61,7 @@ If you want to automatically enable cross-domain requests when needed, use the f
 
 ```javascript
 (function() {
-    var cors_api_host = 'cors-anywhere.herokuapp.com';
+    var cors_api_host = 'https://salty-earth-46109.herokuapp.com/';
     var cors_api_url = 'https://' + cors_api_host + '/';
     var slice = [].slice;
     var origin = window.location.protocol + '//' + window.location.host;
